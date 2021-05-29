@@ -6,8 +6,8 @@ print("scissors...")
 
 player1 = input("Player, make your move: ")
 
-rand_num = randint(0,2)
-if rand_num == 0: 
+rand_num = randint(0, 2)
+if rand_num == 0:
     computer = "rock"
 elif rand_num == 1:
     computer = "paper"
